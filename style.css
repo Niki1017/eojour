@@ -32,3 +32,44 @@ header h1{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.info{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+    text-align: center;
+}
+
+.news{
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    text-align: center;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.infoImg{
+    position: absolute;
+    /* background: aqua; */
+    bottom: 10px;
+    z-index: 5;
+    display: inline-block;
+}
+
+.infoImg p,
+.infoImg h1{
+    text-align: left;
+    color: #fff;
+}
+
+.kursiv{
+    font-style: italic;
+}
