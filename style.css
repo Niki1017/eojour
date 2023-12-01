@@ -33,6 +33,10 @@ header h1{
     margin-bottom: 15px;
 }
 
+main{
+    text-align: center;
+}
+
 .info{
     margin-top: 60px;
     margin-bottom: 60px;
@@ -40,13 +44,18 @@ header h1{
     text-align: center;
 }
 
+.info h1{
+    margin-bottom: 15px;
+}
+
 .news{
     width: 100%;
 }
 
 .card{
+    display: inline-block;
     position: relative;
-    text-align: center;
+    margin: 15px
 }
 
 .card img{
@@ -54,14 +63,15 @@ header h1{
     height: 300px;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 16px;
 }
 
 .infoImg{
     position: absolute;
-    /* background: aqua; */
     bottom: 10px;
     z-index: 5;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .infoImg p,
